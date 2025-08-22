@@ -1,6 +1,6 @@
 function exportAllEditsToSheet() {
 
-  // ⛔️ IMPORTANT: Insert your Google Doc ID here.
+  // ⛔️ IMPORTANT: Insert your Google Doc ID here. Don't paste the whole URL.  Just copy the (roughly 44) alpha-numeric docID in the browser. Leave the quotation marks intact below.
   const docId = 'YOUR_DOCUMENT_ID_HERE';
   
   const doc = DocumentApp.openById(docId);
